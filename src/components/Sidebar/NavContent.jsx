@@ -44,12 +44,8 @@ function NavContent() {
         <div className="dapp-menu-top">
           <Box className="branding-header">
             <Link href="https://olympusdao.finance" target="_blank">
-              <SvgIcon
-                color="primary"
-                component={OlympusIcon}
-                viewBox="0 0 151 100"
-                style={{ minWdth: "151px", minHeight: "98px", width: "151px" }}
-              />
+        <Typography variant="h1">Γ</Typography>
+        <Typography variant="h3">CROHMIUM</Typography>
             </Link>
 
             {address && (
